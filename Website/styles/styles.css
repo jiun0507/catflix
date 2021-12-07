@@ -1,0 +1,29 @@
+main-header {
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0));
+    background-color: rgba(0, 0, 0, 0);
+    cursor: default;
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 6.360000133514404px;
+    padding-bottom: 0px;
+    padding-left: 21.1875px;
+    padding-right: 21.1875px;
+    padding-top: 0px;
+    position: relative;
+    height:50px;
+    width: 487.625px;
+    z-index: 2;
+    top: 0px; 
+    position: relative;
+    background-color: transparent;
+    height:50px; 
+}
+
+
+netflix-logo {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+}

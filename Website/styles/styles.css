@@ -1,4 +1,4 @@
-main-header {
+.main-header{
     align-items: center;
     color: rgb(255, 255, 255);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0));
@@ -21,8 +21,32 @@ main-header {
     height:50px; 
 }
 
+.logo{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(229, 9, 20);
+    cursor: pointer;
+    display: block;
+    font-family: nf-icon;
+    font-size: 11.447999954223633px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-position: normal;
+    font-weight: normal;
+    height: 11px;
+    line-height: 11.44800090789795px;
+    margin-right: 5px;
+    text-decoration: none;
+    text-transform: none;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    vertical-align: middle;
+    width: 40.703125px;
+    word-break: keep-all;
+    width: 10px;
+}
 
-netflix-logo {
+.netflix-logo{
     position: absolute;
     width: 50px;
     height: 20px;

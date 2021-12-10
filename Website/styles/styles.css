@@ -1,7 +1,7 @@
 .main-header{
     align-items: center;
-    color: rgb(255, 255, 255);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 10%, rgba(0, 0, 0, 0));
+    color: rgb(42, 14, 14);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0));
     background-color: rgba(0, 0, 0, 0);
     cursor: default;
     display: flex;
@@ -11,81 +11,29 @@
     padding-left: 21.1875px;
     padding-right: 21.1875px;
     padding-top: 0px;
-    position: relative;
-    height:50px;
-    width: 487.625px;
+    height: 100px;
+    width: 1500px;
     z-index: 2;
     top: 0px; 
     position: relative;
     background-color: transparent;
-    height:50px; 
 }
 
-.logo{
-    background-color: rgba(0, 0, 0, 0);
-    color: rgb(229, 9, 20);
-    cursor: pointer;
-    display: block;
-    font-family: nf-icon;
-    font-size: 11.447999954223633px;
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
-    font-variant-position: normal;
-    font-weight: normal;
-    height: 11px;
-    line-height: 11.44800090789795px;
-    margin-right: 5px;
-    text-decoration: none;
-    text-transform: none;
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    vertical-align: middle;
-    width: 40.703125px;
-    word-break: keep-all;
-    width: 10px;
-}
 
 .netflix-logo{
-    position: absolute;
-    width: 50px;
-    height: 20px;
+    width: 200px;
+    height: 100px;
 }
 
-.secondary-navigation {
-    -webkit-box-align: center;
-    -webkit-box-flex: 1;
-    -webkit-box-pack: end;
-    -webkit-font-smoothing: antialiased;
-    -webkit-user-select: none;
-    align-items: center;
-    color: rgb(255, 255, 255);
-    cursor: default;
-    display: flex;
-    flex-grow: 1;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 6.360000133514404px;
-    height: 41px;
-    justify-content: flex-end;
-    line-height: 8.904000282287598px;
-    position: absolute;
-    right: 21.200000762939453px;
-    top: 0px;
-    width: 104.25px;
-    word-break: keep-all;
+.main-layer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 50%, rgba(0, 0, 0, 0));
+    background-color: rgba(0, 0, 0, 0);
+    width:1500px;
+    height:800px;
 }
 
-.nav-element {
-    -webkit-font-smoothing: antialiased;
-    -webkit-user-select: none;
-    color: rgb(255, 255, 255);
-    cursor: default;
-    display: block;
-    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 6.360000133514404px;
-    height: 19px;
-    line-height: 8.904000282287598px;
-    margin-right: 15px;
-    width: 21.40625px;
-    word-break: keep-all;
+.main-photo{
+    background-color: transparent;
+    width:1300px;
+    height:600px;
 }
